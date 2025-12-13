@@ -1,0 +1,83 @@
+Collection : List Set Map
+
+---------------------------------------
+List (Ordered, allows duplicates)
+---------------------------------------
+
+LinkedList
+CopyOnWriteArrayList
+ArrayList
+Vector (legacy, synchronized)
+Stack (legacy – extends Vector)
+
+---------------------------------------
+Set (No duplicates)
+---------------------------------------
+
+HashSet
+TreeSet
+LinkedHashSet
+CopyOnWriteArraySet
+EnumSet
+ConcurrentSkipListSet
+
+---------------------------------------
+Set (Key–Value storage)
+---------------------------------------
+
+HashMap
+TreeMap
+LinkedHashMap
+ConcurrentHashMap
+Hashtable (legacy)
+EnumMap
+WeakHashMap
+IdentityHashMap
+ConcurrentSkipListMap
+
+---------------------------------------
+Queue & Deque
+---------------------------------------
+PriorityQueue
+LinkedList
+ArrayDeque
+BlockingQueue
+ConcurrentLinkedQueue
+ConcurrentLinkedDeque
+DelayQueue
+SynchronousQueue
+LinkedBlockingQueue
+ArrayBlockingQueue
+PriorityBlockingQueue
+LinkedTransferQueue
+
+---------------------------------------
+Concurrent Collections (Thread-Safe)
+---------------------------------------
+
+ConcurrentHashMap
+CopyOnWriteArrayList
+CopyOnWriteArraySet
+BlockingQueue
+ConcurrentLinkedQueue
+ConcurrentLinkedDeque
+ConcurrentSkipListMap
+ConcurrentSkipListSet
+
+---------------------------------------
+Legacy Collections
+---------------------------------------
+Vector
+Stack
+Hashtable
+Enumeration
+
+-----------------------------------------
+Utility & Wrapper Classes
+-----------------------------------------
+
+Collections (utility methods: sort, synchronizedList, etc.)
+Arrays (asList, sort, binarySearch)
+Comparator
+Comparable
+Optional (not collection, but related)
