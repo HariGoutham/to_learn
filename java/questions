@@ -1,0 +1,582 @@
+# Java and Spring Interview Questions
+
+## Java Basics
+1. What are the main features and advantages of Java?
+2. How is Java platform independent? Why convert Java code to bytecode?
+3. How to set up VS Code for Java? (not an interview question)
+4. What is the role of public, static, and void in it?
+5. What is Java Bytecode? What is high-level, low-level code?
+6. What are variables & data types? What are the types of data types?
+7. What are primitive data types?
+8. What are reference/non-primitive data types?
+9. What are the differences between primitive and reference data types?
+10. What are Operators? What are the types of operators in Java?
+11. What are Arithmetic Operators?
+12. What are Assignment Operators?
+13. What are Comparison Operators? When to use them?
+14. What are Logical Operators? When to use them?
+15. What are Unary Operators?
+16. What are Ternary (Conditional) Operators?
+17. What is the instanceOf Operator?
+
+## Control Statements
+18. What are control statements in Java?
+19. What are conditional statements? What is if-elseif-else condition?
+20. What are looping statements in Java? What is a while loop?
+21. What is the difference between while loop and for loop?
+22. What is the difference between break and continue statement?
+23. What is the difference between while loop and do-while loop?
+24. How to decide which loop (for, while, do-while) to use in real applications?
+25. What is the difference between for loop and for-each loop? When to use for-each loop?
+26. What is a switch statement?
+27. When to use which type of conditional statements in real applications?
+
+## Strings
+28. What is StringBuilder? Difference between String and StringBuilder?
+29. When to use String and when to use StringBuilder in real applications?
+30. What is the concept of string pool in Java?
+31. What is the difference between == and equals() method for comparing strings?
+32. What are the important methods of the String class? 
+
+## Arrays
+33. What is an Array? Why do we need an array in real applications?
+34. How to declare and initialize an array? How to access array elements?
+35. What is the length property of an array?
+36. How do you iterate over an array in Java?
+
+## Object-Oriented Programming (OOP)
+37. What is OOPS? What are the main concepts of OOPS?
+38. What are classes and objects? Why use them in applications?
+39. How to implement classes and objects in Java?
+40. What are the members of a class?
+41. What is the role and benefit of a package in Java?
+42. What are access specifiers? What are public and private specifiers?
+43. What is the role of the default access specifier? Difference between public and private?
+44. What is the role of the this keyword in Java? When to use it?
+45. Why use the same names for class fields and parameter names in the Setter method?
+46. What are getter and setter methods?
+47. What are the advantages of getter and setter methods?
+48. What are the 4 principles/pillars of OOPS?
+49. What is inheritance and when to use inheritance in real applications?
+50. How to implement inheritance in Java?
+51. What are the different types of inheritance? When to use what?
+52. What is multiple inheritance? Does Java support it?
+53. Why does Java not support multiple inheritance of classes?
+54. What is the alternative to multiple inheritance in Java?
+55. How to prevent a class from being inherited?
+56. What is polymorphism?
+57. What are the types of polymorphism?
+58. What is Method Overloading? How to implement it and when to use it?
+59. Why do we call method overloading a type of compile-time or early binding?
+60. In how many ways can a method be overloaded?
+61. If two same methods have different return types, are the methods overloaded?
+62. What is Method Overriding?
+63. Why use method overriding? Why don’t we have different name methods?
+64. How to implement method overriding?
+65. Why do we call method overriding run-time or late binding?
+66. What are the 5 differences between Overloading and Overriding?
+67. What are Annotations in Java?
+68. What is Encapsulation?
+69. How to achieve Encapsulation in Java?
+70. What are the advantages of Encapsulation in Java?
+71. What is Abstraction? How to implement abstraction?
+72. What is the difference between abstraction and encapsulation?
+73. What is an abstract class in Java? How to implement it?
+74. When to use an abstract class in real applications?
+75. What are interfaces in Java? How to implement it?
+76. When to use interfaces in real applications?
+77. What are the differences between an Abstract class and an Interface?
+78. What are default methods? When to use default methods?
+79. Can you create an instance of an Abstract class or an Interface?
+80. Do abstract classes have constructors? What is the use of that constructor?
+81. Do Interfaces have constructors?
+82. When to use an Interface and when an Abstract class in real applications?
+83. How to achieve abstraction? Abstraction vs Abstract class?
+
+## Constructors
+84. What is a Constructor in Java?
+85. What are the types of constructors? What is a Default constructor?
+86. What is a Parameterized constructor? When to use it in real applications?
+87. What is constructor overloading? When to use it in real applications?
+88. What is constructor chaining?
+89. What is a copy constructor?
+90. When to use a copy constructor in real applications?
+91. Can a constructor have a return type?
+92. What will happen if no constructor is defined inside the class?
+93. What is the role of the super keyword?
+
+## Exception Handling
+94. What is Exception Handling? How to implement it in Java?
+95. What is the role of finally in exception handling?
+96. When to use finally in real applications?
+97. Can we have multiple catch blocks?
+98. What is a catch-all block? Is it a good practice in real applications?
+99. Can we execute all catch blocks at one time?
+100. What is the role of the throw keyword in exception handling? When to use it?
+101. What is the role of the throws keyword in exception handling?
+102. What are the differences between throw and throws keywords?
+103. What are the types of exceptions in Java?
+104. What are checked and unchecked exceptions?
+
+## Collections
+105. What are collections and what is their use in Java?
+106. What are the types of collections in Java?
+107. What are Iterable & Collection interfaces?
+108. What are List, Queue & Set collections? What is the difference between them?
+109. What is ArrayList? How to implement it and when to use it?
+110. What are the differences between Array and ArrayList?
+111. What is HashSet? What are the differences between ArrayList (List) & HashSet (Set)?
+112. What is Map in Java? Which classes implement the Map interface?
+113. What is HashMap in Java? How to implement it and when to use it?
+114. What are the differences between HashSet (Set) and HashMap (Map)?
+115. What is LinkedList in Java? What are Singly and Doubly linked lists?
+116. How to implement LinkedList? Difference between ArrayList & LinkedList?
+117. What is TreeSet in Java? What is the difference between HashSet and TreeSet?
+118. What is the difference between HashMap and Hashtable?
+119. What are the advantages of using collections?
+
+## Multithreading
+120. What is Process and Thread? What is the difference between them?
+121. Explain Multithreading? What is the advantage of it?
+122. What is Main Thread & Daemon Thread in Java?
+123. In how many ways can we implement multithreading in Java?
+124. How to implement multithreading using Thread class?
+125. How to implement multithreading using Runnable Interface?
+126. What are the differences between Thread class & Runnable interface?
+127. What are some important methods of the Thread class?
+
+## Generics
+128. What is the role of Generics in Java?
+129. What is a Generic method? How to implement a Generic method?
+130. What is a Generic class? How to implement a Generic class?
+131. What are type parameters and type arguments? What is T in a Generic class?
+132. When to use a Generic method and when to use a Generic class in Java?
+133. What are bounded type parameters in generics?
+134. Can primitive types be used as type arguments in generics?
+135. How to use Generics with Collections?
+136. What is Type Safety? How do generics provide type safety?
+137. What is Type casting? How do generics eliminate type casting?
+138. What are the advantages of using Generics?
+
+## Lambda Expressions
+139. What is a lambda expression and lambda operator?
+140. What is the difference between a normal interface and a functional interface?
+141. How to use a lambda expression to implement functional interfaces?
+142. Can we use a lambda expression for non-functional interfaces?
+
+## Types of Classes
+143. What are the types of classes in Java?
+144. What are Inner Classes (Nested Classes)?
+145. What is a Final class in Java?
+146. What is a Final method in Java?
+147. What is the role of the final keyword?
+148. What is the role of Static method?
+149. When to use static methods in real applications?
+150. What is a Static nested class?
+151. What is the role of the static keyword in Java?
+152. What is Enum? What is the use of it in real applications?
+153. How to use and implement Enums?
+
+## Coding Problems
+154. What are the must-know prerequisites for solving basic coding problems?
+155. What is the common approach for solving coding problems?
+156. Write a function to calculate the sum of all elements in an array.
+157. Write a function to calculate the average of an array of numbers.
+158. Write a function to find the smallest number in an array.
+159. Write a function to find the largest number in an array.
+160. Write a function to find the second largest number in an array.
+161. What are the top 5 important array functions used in coding problems?
+162. Write a function to check whether two arrays are the same or not?
+163. Write a function to check if a given array is sorted in ascending order or not?
+164. Write a function to merge two arrays into a single sorted array.
+165. Write a function to remove a specific element from an array.
+166. Write a function that counts the number of characters in a string?
+167. How to iterate a string?
+168. Write a function that returns the reverse of a string?
+169. Write a function that checks whether a given string is a palindrome or not?
+170. What are the important methods of the String class?
+171. Write a function that returns the longest word in a sentence.
+172. Write a function to remove all whitespace characters from a string.
+173. Write a function that counts the number of vowels in a string?
+174. Write a function that checks whether two strings are anagrams or not?
+175. Write a function to calculate the factorial of a number.
+176. What is the difference between ++i and i++?
+177. Write a function that checks whether a number is prime or not?
+178. How to swap two numbers in Java?
+179. Write a function to calculate the GCD for two numbers.
+180. Write a function to sum the digits of a number.
+181. Write a function to calculate the Fibonacci sequence up to a given number.
+182. Write a function to sort an array of numbers in ascending order (Bubble Sort).
+183. Write a function to search an element in any array (Binary Search)?
+
+## Spring Framework
+184. What is Spring framework? What are the core features of Spring?
+185. What is Inversion of Control (IoC)? What is Loose coupling?
+186. How to achieve IoC? Difference between Principle & Design Pattern?
+187. What is Dependency Injection? How to implement it?
+188. What are the must-know things before learning Dependency Injection?
+189. How to implement Dependency Injection in code using Spring?
+190. What are the 4 ways of implementing Dependency Injection in Spring?
+191. When to use which type of dependency injection?
+192. What is the role of Component and @Component annotation in Spring?
+193. What are Bean & @Bean annotation? Difference between Bean & Component?
+194. What are the ways to define a Bean in Spring?
+195. What is the life cycle of a Bean in Spring?
+196. What is AppConfig, @Configuration and @ComponentScan?
+197. What is the role of @Primary annotation in AppConfig?
+198. Do we need @Primary annotation if there is only one bean method?
+199. What is Spring IoC container? AnnotationConfigApplicationContext?
+200. What is the XML-based Configuration?
+201. What is the role of @Autowired annotation?
+202. What is Scope of a bean? What is the default scope of a bean?
+203. What are the different types of Spring bean scopes?
+204. What is Singleton Scope?
+205. When to use Singleton scope? What are its pros and cons?
+206. What is Prototype Scope?
+207. When to use Prototype scope? What are its pros and cons?
+208. What is Request Scope? When to use it?
+209. What is Spring AOP?
+210. What are circular dependencies? How does Spring handle it?
+211. Can we have multiple Spring configuration files in one project?
+212. What is BeanFactory in Spring?
+213. What is the difference between BeanFactory and ApplicationContext?
+214. What is Spring Boot? How does it differ from the traditional Spring Framework?
+215. What is Spring Initializr?
+216. What is Spring Boot starter?
+217. What are the types of Spring Boot starter?
+218. How does Spring Boot provide auto configuration?
+219. What is the role of @SpringBootApplication annotation?
+220. What are embedded servers in Spring Boot? What are its benefits?
+221. What is the project structure of a Spring Boot MVC application?
+222. What is application.properties used for in Spring Boot?
+223. What is application.yml file? application.yml vs application.properties?
+224. How do you configure a Spring Boot application?
+225. What is Spring Boot Actuator?
+226. What are the key features of Spring Boot Actuator?
+227. How do you package and deploy a Spring Boot application?
+228. What is Spring MVC? Explain the architecture of Spring MVC?
+229. What does MVC stand for?
+230. What is the role of Dispatcher Servlet in Spring MVC?
+231. What is Controller and @Controller annotation in Spring MVC?
+232. What is the role of @RequestMapping annotation in Spring MVC?
+233. What is the role of @GetMapping annotation in Spring MVC?
+234. What is the difference between @PostMapping & @PutMapping annotation?
+235. What is the role of @DeleteMapping annotation in Spring MVC?
+236. What is the difference between @Controller and @RestController annotations?
+237. What is the role of Model in Spring MVC?
+238. What is the difference between @RequestParam and @PathVariable?
+239. What is @ModelAttribute annotation in Spring MVC?
+240. What is @ModelAttribute annotation at method level? When to use it?
+241. What is the role of @ModelAttribute annotation with parameters?
+242. How to validate the data in Spring MVC?
+243. What is the purpose of ModelAndView in Spring MVC?
+244. How does Spring MVC handle form submissions?
+
+## RESTful Services
+245. What is REST & RESTful API?
+246. What are HTTP Request and Response structures in UI and REST API?
+247. What are the Top 5 REST guidelines and the advantages of them?
+248. What is the difference between REST API and SOAP API?
+249. What are HTTP Verbs and HTTP methods?
+250. What are GET, POST, PUT & DELETE HTTP methods?
+251. What is the difference between PUT & PATCH methods?
+252. Explain the concept of Idempotence in RESTful APIs.
+253. What are the roles of status codes in RESTful APIs?
+254. What is CORS in RESTful APIs?
+255. What are Serialization & Deserialization?
+256. What are the types of serialization?
+257. Explain the concept of versioning in RESTful APIs.
+258. What is an API document? What are the popular documentation formats?
+259. What are Authentication and Authorization?
+260. What is Token-based and JWT authentication?
+261. What are the parts of JWT token?
+262. Where does the JWT token reside in the request?
+
+# Java and Spring Interview Questions
+
+## General Questions
+1. Private Course Feedback Link
+2. Notes Download
+3. About Me Preparation Template
+4. Your recent project
+5. Resume Preparation Tips and Template
+
+## Java Concepts
+6. abstract class vs interface
+7. Why is multiple inheritance not supported?
+8. Can a class implement two interfaces with the same method?
+9. What are the Object class methods?
+10. What is the Default hashCode implementation?
+11. What is the default toString implementation?
+12. Why are Strings immutable?
+13. equals method vs == operator
+14. final, finally, and finalize
+15. What are generics?
+16. What are the different collection Types?
+17. ArrayList vs LinkedList
+18. Vector vs ArrayList
+19. HashMap vs LinkedHashMap
+20. Default capacity of ArrayList
+21. HashMap capacity and load factor
+22. How to create a Generic Class?
+23. Fail-fast vs Failsafe Iterators
+24. Producer Consumer Pattern
+25. Comparable vs Comparator
+26. What are concurrent collections?
+
+## Multithreading
+27. How to create threads?
+28. Process vs Thread
+29. start() vs run()
+30. Lifecycle
+31. What are class level locks?
+32. What are synchronized blocks?
+33. How do threads communicate?
+34. join()
+35. wait()
+36. Shutdown Hook
+37. Daemon Thread
+
+## Lambda Expressions
+38. What is a Lambda?
+39. What are Functional Interfaces?
+40. What is the use of Lambda?
+41. What is a Predicate?
+42. What are Predicate Joins?
+43. What is a Function?
+44. What are Default methods on interfaces?
+45. Can a class implement two interfaces with the same default method?
+46. How to use Stream Filter?
+47. Other Methods on Stream
+48. Map vs Filter
+49. What are private methods in interfaces?
+50. What are Immutable Collections?
+51. Stream API Updates
+52. Enhancements to try with resource
+
+## Java Updates
+53. Introduction
+54. var
+55. Collectors API updates
+56. String API Updates
+57. File API Updates
+58. isEmpty method
+59. Compact Number Format
+60. More Unicode Chars
+61. What is instanceof Pattern Matching?
+62. What is a Record?
+63. What are Helpful NullPointerExceptions?
+64. What are Switch Expressions?
+65. What are Sealed Classes?
+66. Record Enhancements
+
+## Coding Problems
+67. Find the Factorial
+68. Generate Fibonacci Series
+69. Reverse a String
+70. Check if a String is Palindrome
+71. Find the numbers
+
+## Spring Framework
+72. What is Dependency Injection and IOC?
+73. What are the Spring Bean Scopes?
+74. Prototype in Singleton
+75. What are HTTP Scopes?
+76. What are the Problems with traditional Spring?
+77. Why use Spring Boot?
+78. What are some of the starters you have used?
+79. What is @SpringBootApplication?
+80. What is @SpringBootTest?
+81. What are some of the annotations you have used?
+82. Stereotype Annotations
+83. Few more annotations
+84. What is Spring Boot Actuator?
+85. What is Spring Data JPA?
+86. How to use Spring Data JPA?
+87. Create Coupon Service Data Access Layer
+88. ORM
+89. Create Product Service Data Access Layer
+90. JPA
+91. What are the different Entity Object States?
+92. What are various JPA Associations?
+93. What is Cascading?
+94. What is Lazy Loading?
+95. What are two levels of caching?
+96. How to configure Second Level Cache?
+97. What is AOP?
+98. What is the AOP Terminology?
+99. What is a Transaction?
+100. What are transaction ACID Properties?
+101. What are Distributed Transactions?
+102. What are the Transaction Isolation Levels?
+103. What is Optimistic vs Pessimistic Locking?
+
+## Microservices
+104. What is a Monolithic Application?
+105. What are Microservices?
+106. Why Microservices?
+107. Disadvantages of Microservices
+108. Monolithic vs Microservices
+109. Best Practices
+110. Cohesion and Coupling
+111. How Microservices Communicate?
+112. Microservices vs REST
+113. REST vs Messaging
+114. How to version microservices?
+115. What are the different levels of caching?
+116. Monitoring
+
+## RESTful Services
+117. What is REST?
+118. Are REST web services stateless?
+119. HTTP PUT vs POST and PATCH
+120. Idempotency
+121. HTTP Status Codes
+122. REST using Java
+123. JAX-RS
+124. JAXB
+125. Jackson
+ 126. Why Spring Rest?
+127. @Controller vs @RestController
+128. How did you create REST API?
+129. Create Coupon Service REST API
+130. API Versioning
+131. Pagination
+132. Sorting
+
+## SOAP
+133. What is SOAP?
+134. What are the Java EE Web Service Standards?
+135. What are the Two Types of SOAP Design?
+136. What is WSDL?
+137. What is the WSDL Structure?
+138. What is the Top Down approach?
+139. What is the Bottom Up Design?
+140. What is a SOAP Client?
+141. What is MTOM?
+142. SOAP vs REST
+
+## Security
+143. What are the Security Guidelines you followed?
+144. What are the Components of Spring Security?
+145. How did you use passwords?
+146. @Secured vs @RolesAllowed
+147. How did you secure your REST APIs?
+148. What is OAuth?
+149. What are the Key Components in OAuth?
+150. What is the OAuth Workflow?
+151. What are the OAuth Grant Types?
+152. What are the Different Grant Types?
+153. What are Access Token and Refresh Token?
+154. What is JWT?
+155. What is the Structure of JWT?
+156. How to configure JWT?
+157. How to rotate tokens?
+158. How to use Tokens with Frontends?
+159. What is CSRF?
+160. How to prevent CSRF?
+161. What is CORS?
+
+## Messaging
+162. What is messaging?
+163. Why Messaging?
+164. What is JMS?
+165. What is the KEY JMS API?
+166. Two Types of messaging?
+167. JMS Transactions?
+168. What is Message Grouping?
+169. What is a MDB?
+
+## Design Patterns
+170. What are the Design Patterns you have used?
+171. What are Singleton Best Practices?
+172. Factory
+173. Factory vs Abstract Factory
+174. Adapter
+175. Decorator
+176. Template Method
+177. DRY Principle
+178. Open Close Principle
+179. SOLID Principle
+180. 12 Factor App
+181. What is Circuit Breaker Pattern?
+
+## Testing
+182. What are the different types of testing?
+183. Advantages of Test Automation?
+184. What is Unit Testing?
+185. What is Mocking?
+186. Mock vs Stub?
+187. What are the important Spring Test Annotations?
+188. spring-boot-starter-test
+189. What are the various Testing Tools you have used?
+190. What are the important JUnit 5 and Mockito annotations?
+
+## Version Control
+191. Code Review Checklist
+192. Why use GIT?
+193. What is the typical Git Workflow?
+194. Commands you have used?
+195. Tools you have used?
+196. Fetch vs Pull?
+197. reset and revert?
+
+## Dependency Management
+198. What are the different Maven Scopes?
+199. snapshots vs release?
+200. How to Control Dependencies?
+201. How to Override a Transitive Dependency Version?
+
+## DevOps
+202. What is DevOps?
+203. Why DevOps?
+204. Tools you have used?
+205. Continuous Integration vs Delivery vs Deployment?
+206. What is Jenkins?
+207. How to create a Jenkinsfile?
+208. What are the Steps to automate a deployment?
+209. How to pass Params and Inputs to Jenkins Build?
+
+## Containerization
+210. What is Containerization?
+211. Containerization vs Virtualization?
+212. What is Docker?
+213. What are the Docker Components and Workflow?
+214. Why Docker?
+215. What are some of the Docker Commands you have used?
+216. What are Docker Volumes?
+217. Volumes vs Bind Mounts?
+218. How did you dockerize your application?
+219. What is docker compose?
+220. What is Container Orchestration?
+221. What is Kubernetes?
+222. What is a Pod?
+223. What is a ReplicaSet?
+224. What is a Deployment?
+225. What is a Service?
+226. What are different Service Types?
+227. What are Namespaces?
+228. Explain Kubernetes Architecture.
+229. Volumes vs PV?
+230. What are PV and PVC?
+231. How to use a PVC?
+232. What are Config Maps and Secrets?
+233. What are Regions, Zones, and Edge Locations?
+
+## AWS
+234. What is EC2?
+235. What is an AMI?
+236. What are Spot Instances?
+237. Public vs Elastic IP?
+238. What are EC2 instance States?
+239. How to Connect to a Linux instance?
+240. How to Secure EC2 instance?
+241. How to do Load Balancing?
+242. How to use Auto Scaling?
+243. Create custom user?
+244. What is SNS?
+245. How to Send Notifications?
+246. What is CloudWatch?
+247. S3 vs EBS vs EFS?
+248. What are the S3 Storage Classes 
+
