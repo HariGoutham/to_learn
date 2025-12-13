@@ -1,0 +1,12 @@
+Data Types and Variables. 
+Java Classloaders, 
+Wrapper Classes, 
+Object Basics - Class, Object, State and Behavior 
+toString method, equals and hashCode methods
+Inheritance, Method overloading and Method overriding
+Interface, Abstract Class
+Constructors - this() and super()
+Polymorphism and instanceof
+Access Modifiers: public, private, protected, and default access.
+Java Memory Management: Stack vs. Heap, Garbage Collection (GC) and Memory Leaks and their prevention.
+String vs StringBuilder vs StringBuffer, String Pool and Interning
