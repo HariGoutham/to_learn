@@ -1,0 +1,37 @@
+Streams API, Default and Static Methods in Interfaces, Optional Class, Functional Interfaces.
+
+Java 8 available methods for simpler operations:
+
+map(), flatMap()
+distinct()
+count()
+sorted()
+Customized sort using Comparator
+filter()
+reduce()
+Map + Filter + Reduce Pattern
+max using reduce() function
+min() using reduce function
+limit()
+skip()
+allMatch()
+anyMatch()
+noneMatch()
+findAny()
+findFirst()
+of()
+iterate()
+generate()
+Numeric Streams: range(), rangeClosed(), count(), foreach(), sum(), max(), min(), average(), Boxing, Unboxing, mapToInt(), mapToObj(), mapToDouble(), mapToLong()
+joining()
+counting()
+mapping()
+minBy()
+maxBy() using collect()
+sum(), avg() using collect()
+groupingBy() 
+maxBy()
+minBy()
+collectingAndThen()
+partitioningBy()
+Optional: empty(), ofNullable(), Of(), orElse(), orElseGet(), orElseThrow(), ifPresent(), isPresent(), map(), flatMap(), filter()
