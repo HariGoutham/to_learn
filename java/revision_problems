@@ -1,0 +1,197 @@
+# 📘 Java Interview Problem Solving – Ultimate Guide (Java 8 + Patterns)
+
+A **120+ question** cheat-sheet for mastering coding interviews in **Java 8**, including **stream API, lambdas**, and all major **problem-solving patterns**. Perfect for interviews at product-based companies and startups.
+
+---
+
+## ☕ Section 1: Java 8 Functional Programming
+
+### 🎯 Lists, Maps, Sets – Basics
+1. Remove duplicates from a list using streams  
+2. Get frequency count of elements in a list  
+3. Convert List to Set  
+4. Convert List to Map (index as key or custom)  
+5. Find common elements between two lists  
+6. Join list of strings with delimiter  
+7. Partition list into even/odd  
+8. Filter nulls or empty strings from list  
+9. Group strings by first letter  
+10. Count word frequency in a sentence  
+11. Convert Map to List of keys or entries  
+12. Find max, min in list using stream  
+13. Reverse a list using Java 8  
+14. Sort a list naturally and in reverse  
+15. Find duplicates in list using Set and Stream
+
+### 🔄 Conversions and Mapping
+16. Convert List of objects to Map  
+17. Convert String to character List  
+18. Convert array to List using streams  
+19. Flatten list of lists using `flatMap()`  
+20. Get distinct characters from string  
+21. Convert List of Strings to upper/lowercase  
+22. Map object list to one field (like name or id)  
+23. Convert Map<Key, List<Value>> to flat List<Value>  
+
+### 📋 Advanced Stream Operations
+24. `Collectors.groupingBy()` usage examples  
+25. `Collectors.toMap()` with merge function  
+26. Use `reduce()` for sum, product, longest string  
+27. Sorting with Comparator + Streams  
+28. Counting occurrences using `groupingBy`  
+29. Stream pipeline to check for condition (`anyMatch`, `allMatch`)  
+30. Parallel stream with performance caution  
+31. Create infinite stream and limit  
+32. Peek vs map – debug stream flow  
+33. Custom collector to build comma-separated string  
+
+---
+
+## 🧩 Section 2: Core Problem Solving Patterns (Classic Questions)
+
+### 🔁 Array & String Manipulation
+
+#### 📌 Duplicates & Uniques
+34. Find all duplicates in array  
+35. Remove duplicates from sorted/unsorted array  
+36. First repeating and first non-repeating character  
+37. Check if all characters in string are unique  
+38. Count frequency of characters in a string  
+
+#### 🔢 Numbers
+39. Check if number is prime  
+40. Check if number is palindrome  
+41. GCD & LCM of two numbers  
+42. Factorial using recursion  
+43. Fibonacci number (recursion & DP)  
+44. Reverse digits of a number  
+45. Count digits in a number  
+46. Armstrong number  
+47. Convert decimal to binary  
+
+### 📊 Sorting & Searching
+48. Bubble sort, Insertion sort  
+49. Merge sort, Quick sort  
+50. Sort array in descending order  
+51. Custom sort by comparator (objects)  
+52. Binary search in sorted array  
+53. Search in rotated sorted array  
+54. Find missing number in 1 to N  
+55. Find Kth smallest/largest element  
+
+### 🧭 Two Pointer / Sliding Window
+
+#### Two Pointers
+56. Check if array has pair with sum X  
+57. Merge two sorted arrays  
+58. Move all zeros to end of array  
+59. Remove duplicates from sorted array  
+
+#### Sliding Window
+60. Max sum of subarray of size k  
+61. Longest substring without repeating characters  
+62. First negative integer in every window of size k  
+63. Minimum window substring  
+64. Max consecutive ones with one flip  
+
+### 📏 Subarrays / Substrings
+65. Maximum subarray sum (Kadane’s)  
+66. Longest palindromic substring  
+67. Count number of substrings with given sum  
+68. Check if substring is palindrome  
+69. Print all substrings  
+70. Find substring with exactly K distinct characters  
+
+### 📦 Stack / Queue Based
+
+#### Stack
+71. Valid parentheses  
+72. Evaluate postfix expression  
+73. Next greater element  
+74. Min Stack – getMin() in O(1)  
+75. Balanced expression with brackets  
+76. Largest rectangle in histogram  
+
+#### Queue
+77. Sliding window maximum  
+78. Implement Queue using 2 stacks  
+79. LRU cache using LinkedHashMap  
+80. Circular queue implementation  
+
+### ⏪ Recursion & Backtracking
+81. All permutations of a string  
+82. All subsets (power set)  
+83. Generate balanced parentheses  
+84. Rat in a Maze  
+85. N-Queens problem  
+86. Sudoku solver  
+87. Word break problem  
+88. Letter combinations of phone number  
+
+### 🌳 Trees & Graphs – Basics
+
+#### Binary Tree
+89. In-order, pre-order, post-order traversal  
+90. Level-order traversal (BFS)  
+91. Check if tree is symmetric  
+92. Height of a binary tree  
+93. Lowest common ancestor  
+94. Check if tree is balanced  
+
+#### Graph
+95. BFS and DFS traversal  
+96. Detect cycle in graph  
+97. Topological sort  
+98. Clone an undirected graph  
+99. Dijkstra’s shortest path  
+
+### 🧠 Logical & Puzzle Problems
+100. FizzBuzz  
+101. Josephus problem  
+102. Find the missing and repeating number  
+103. Count trailing zeroes in factorial  
+104. Implement pow(x, n)  
+105. Egg dropping puzzle  
+106. Chocolate wrapper problem  
+
+### 🧬 Pattern Problems
+107. Diamond, pyramid, triangle patterns  
+108. Pascal’s triangle  
+109. Floyd’s triangle  
+110. Zigzag matrix pattern  
+
+### 🧪 Miscellaneous / Real-World Scenarios
+111. Find common elements across 3 arrays  
+112. Find all anagrams of a string in another  
+113. Merge overlapping intervals  
+114. Insert interval into sorted list of intervals  
+115. Meeting rooms – check overlaps  
+116. Median in a data stream  
+117. Count number of islands (2D grid)  
+118. Implement Trie (Prefix Tree)  
+119. Design Snake game  
+120. Tic Tac Toe – check winner  
+121. Find celebrity in a party (matrix-based)  
+
+---
+
+## ✅ Practice & Track
+
+| Category            | Total Problems |
+|---------------------|----------------|
+| Java 8 Functional   | 33+            |
+| Array & String      | 25+            |
+| Sliding Window      | 8+             |
+| Recursion/Backtrack | 8+             |
+| Tree/Graph          | 12+            |
+| Stack/Queue         | 10+            |
+| Puzzles/Logic       | 10+            |
+| Misc/Advanced       | 15+            |
+
+---
+
+## 💡 Pro Tips
+- Use Java 8 streams where it **enhances readability**, but don’t force it.
+- Prepare helper methods like `printList`, `toMap`, `charFrequencyMap`.
+- Focus on **writing clean, testable code** — interviewers love it.
+- Build a **GitHub repo** or **Notion table** to track your progress.
