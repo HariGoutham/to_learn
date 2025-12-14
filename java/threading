@@ -1,4 +1,4 @@
-   ✅ Java Thread Lifecycle & Thread States(New, Runnable, Waiting, Blocked, Terminated).
-   ✅ Synchronization, Locks, and Deadlock, Race Conditions, and Thread Safety, volatile and Atomic Variables.
-   ✅ Executor Framework (ThreadPoolExecutor, ScheduledExecutorService), Fork/Join Framework.
-   ✅ CompletableFuture, Parallel Streams
+Java Thread Lifecycle & Thread States(New, Runnable, Waiting, Blocked, Terminated).
+Synchronization, Locks, and Deadlock, Race Conditions, and Thread Safety, volatile and Atomic Variables.
+Executor Framework (ThreadPoolExecutor, ScheduledExecutorService), Fork/Join Framework.
+CompletableFuture, Parallel Streams
