@@ -1,6 +1,6 @@
-10. Advanced Database Concepts (SQL & NoSQL)
-   ✅ Indexing, Query Optimization, Transactions, ACID Properties
-   ✅ Connection Pooling & Caching
-   ✅ NoSQL Databases (MongoDB, Redis, Cassandra)
-   ✅ Hibernate & JPA Performance Tuning
+JPA vs JDBC.
+Indexing, Query Optimization, Transactions, ACID Properties.
+Connection Pooling & Caching.
+NoSQL Databases (MongoDB, Redis, Cassandra)
+Hibernate & JPA Performance Tuning
    
