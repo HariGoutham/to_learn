@@ -1,1 +1,8 @@
+- Using `@RequestMapping`, `@GetMapping`, `@PostMapping`
+- Handling Request & Response Bodies (`@RequestBody`, `@ResponseBody`)
+- Content Negotiation & Response Status Codes (200, 201, 400, 500)
+- Exception Handling in REST APIs
+- Using `@ControllerAdvice` for Global Exception Handling
+- Custom Exception Classes & Response Structures
 
+- Netflix DGS Framework & Fundamentals
