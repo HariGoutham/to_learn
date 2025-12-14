@@ -47,3 +47,20 @@
 - Bulkhead Pattern
 - Rate Limiting (Using Bucket4j, Redis)
 - Circuit Breakers for Microservices
+--------------------------------------------------------------------------------------------------------------
+
+Spring Core/Beans	Explain the internal workings of the IoC Container Lifecycle and Bean Post Processors. When/Why would you use a FactoryBean? Explain a Circular Dependency and ways to resolve it (e.g., @Lazy).
+
+AOP	Differentiate between Proxy-based AOP (Spring's default) and Compile-time/Load-time Instrumentation. When is the latter necessary?
+
+Transactions	Be prepared to draw and explain the flow for different Propagation Levels (REQUIRED, REQUIRES_NEW, NESTED) and discuss when to choose different Isolation Levels (e.g., READ_COMMITTED vs. SERIALIZABLE) and the associated database locks.
+
+Spring Boot	Explain Auto-Configuration using @Conditional annotations. How would you write a Custom Spring Boot Starter?
+
+Microservices	Discuss the trade-offs between Monolith vs. Microservices. Explain the Saga Pattern or Two-Phase Commit (2PC) for distributed transactions, and why Saga is preferred in microservices.
+
+Testing	How do you use MockMvc vs. WebTestClient? Why use TestContainers? Explain Contract Testing (e.g., Spring Cloud Contract) in a microservices context.
+
+Spring Security	Explain the Spring Security Filter Chain. Where would you insert a custom filter? Differentiate between Authentication and Authorization providers.
+
+Deployment	Be ready to describe a CI/CD Pipeline for a microservice and explain the benefits of readiness vs. liveness probes in Kubernetes.
