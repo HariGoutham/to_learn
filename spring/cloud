@@ -2,3 +2,7 @@
 - Configuring Spring Cloud Config Server
 - Circuit Breaker Pattern with Resilience4j/Hystrix
 - Distributed Tracing with Sleuth & Zipkin
+- Overview of microservices and their benefits.
+- How Spring Boot fits into microservices.
+- Service discovery with Eureka.
+- API Gateway with Spring Cloud Gateway.
