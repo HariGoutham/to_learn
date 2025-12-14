@@ -1,0 +1,9 @@
+- Understanding Dependency Injection (DI) or IoC
+- XML-Based Configuration
+- Annotation-Based Configuration
+- Java-Based Configuration
+- Spring Boot Auto-Configuration
+- Externalizing Configuration (application.properties, application.yml)
+- Profiles and Environment-Specific Configurations
+- Overriding Default Properties
+- Order of Priority of Properties in Spring
