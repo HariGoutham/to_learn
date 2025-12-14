@@ -1,8 +1,7 @@
-8. Design Patterns and System Design(java)
-   ✅ SOLID Principles
-   ✅ Factory, Singleton, Observer, Strategy, Decorator Patterns
-   ✅ Microservices vs. Monolithic Architecture
-   ✅ RESTful APIs, API Versioning, HTTP/2, gRPC
-   ✅ Message Brokers (Kafka, RabbitMQ), Event-Driven Architecture
-   ✅ Caching Strategies (Redis, Memcached)
-   ✅ CAP Theorem, Consistency, Availability, Partition Tolerance
+SOLID Principles
+Factory, Singleton, Observer, Strategy, Decorator Patterns
+Microservices vs. Monolithic Architecture
+RESTful APIs, API Versioning, HTTP/2, gRPC
+Message Brokers (Kafka, RabbitMQ), Event-Driven Architecture
+Caching Strategies (Redis, Memcached)
+CAP Theorem, Consistency, Availability, Partition Tolerance
