@@ -1,0 +1,49 @@
+### 16. Spring Boot Performance Tuning & Optimization
+- Profiling Spring Boot Applications (JVisualVM, YourKit)
+- Lazy Initialization & Its Impact
+- Connection Pooling (HikariCP, Tomcat JDBC)
+- Caching Strategies & Cache Optimization
+
+### 17. Spring Transactions (Advanced Concepts)
+- Propagation & Isolation Levels
+- Declarative vs Programmatic Transactions
+- Distributed Transactions (JTA, XA)
+
+### 18. Spring Batch Processing
+- Chunk-Oriented vs Tasklet Processing
+- Job Parameters & Step Execution
+- Reading & Writing Data from Databases & Files
+
+### 19. Spring Data JPA
+- Connecting to databases (JDBC, JPA, Hibernate).
+- **Spring Data JPA**: Advantages and usage.
+- Repository pattern and CRUD operations.
+- Handling transactions with `@Transactional`.
+- Custom Queries using QueryDSL
+- Handling N+1 Query Problem
+- Fetch Joins & Projections for Optimization
+
+### 20. Spring WebFlux (Reactive Programming)
+- Understanding Reactive Streams & Project Reactor
+- Flux vs Mono
+- Handling Backpressure
+
+### 21. Spring Boot Deployment Strategies
+- Dockerizing Spring Boot Applications
+- Kubernetes Deployment (Helm, YAML, ConfigMaps)
+- Cloud-Native Considerations (AWS, Azure, GCP)
+
+### 22. Spring Boot API Gateway & Service Mesh
+- Using Spring Cloud Gateway
+- Integration with Istio or Linkerd
+- API Rate Limiting & Security
+
+### 23. Advanced Spring Security
+- Multi-Tenant Authentication & Authorization
+- LDAP & OAuth2 Single Sign-On (SSO)
+- Spring Security ACL (Access Control List)
+
+### 24. Resilience Patterns in Spring Boot
+- Bulkhead Pattern
+- Rate Limiting (Using Bucket4j, Redis)
+- Circuit Breakers for Microservices
