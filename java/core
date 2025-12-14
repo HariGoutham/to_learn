@@ -1,0 +1,19 @@
+Core OOP Concepts(Inheritance, Composition, Encapsulation, and Polymorphism, Abstraction and Interfaces)
+Nested Classes, Local Types, and Anonymous Classes
+public, static, and void and other key words
+Method Overloading, Method Overriding
+Annotations in Java
+Constructors
+  Do abstract classes have constructors? What is the use of that constructor?
+  Do Interfaces have constructors?
+	When to use an Interface and when an Abstract class in real applications?
+	constructor chaining
+	copy constructor
+	Parameterized constructor
+Exception Handling
+  try catch finally 
+	final vs finally vs finalize
+	checked and unchecked exceptions
+  throw and throws keywords
+Serialization
+Java Security Features: Implement a secure program using the `java.security` package and demonstrate SSL/TLS connections.
