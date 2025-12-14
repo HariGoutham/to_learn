@@ -1,0 +1,9 @@
+- Spring Core Container (Beans, Core, Context, Expression Language)
+- Spring AOP (Aspect-Oriented Programming) and Aspects
+- Instrumentation
+- Web (Web, Servlet, Portlet, Struts)
+- Data Access/Integration (JDBC, ORM, OXM, JMS, Transactions)
+- Convention over Configuration
+- Microservices-ready
+- Embedded servers
+- Opinionated defaults
