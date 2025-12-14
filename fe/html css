@@ -1,0 +1,170 @@
+# Web Development Interview Preparation Guide
+
+This guide provides a concise overview of core web development concepts and practical skills to help you prepare for interviews and enhance your understanding of web development.
+
+## Core Web Development Concepts
+
+### 1. HTML Basics
+- **Text Elements**: Understand headings, paragraphs, and text formatting.
+- **Lists**: Learn about ordered and unordered lists.
+- **Images and Attributes**: Use images effectively and understand attributes.
+- **Hyperlinks**: Create and manage links.
+- **Semantic HTML**: Importance of using semantic tags for better accessibility and SEO.
+
+### 2. CSS Fundamentals
+- **CSS Basics**: Inline, internal, and external CSS.
+- **Selectors**: Class and ID selectors, combining selectors.
+- **Colors and Styling**: Working with colors, styling hyperlinks, and using pseudo-classes.
+- **Box Model**: Understanding margins, paddings, and dimensions.
+- **Positioning**: Absolute positioning and the box-sizing property.
+
+### 3. Layout Techniques
+- **Floats**: Using floats for layout and clearing floats.
+- **Flexbox**: Overview, spacing, aligning items, and building layouts.
+- **CSS Grid**: Overview, sizing columns/rows, placing items, and building grid layouts.
+
+### 4. Web Design Principles
+- **Typography**: Implementing effective typography in web design.
+- **Color Theory**: Choosing and implementing colors.
+- **Images and Icons**: Best practices for using images and icons.
+- **Shadows and Borders**: Implementing shadows and border-radius for design aesthetics.
+- **Whitespace and Visual Hierarchy**: Importance of whitespace and creating a visual hierarchy for better UX.
+
+### 5. Component Building
+- **Building Components**: Creating reusable components like accordions, tables, and hero sections.
+- **Layout Patterns**: Understanding layout patterns for web applications.
+
+## Enhancements to Consider
+
+### 1. Advanced HTML
+- **Forms and Validation**: Build forms and implement client-side validation.
+- **Media Elements**: Work with `<audio>` and `<video>` tags.
+- **Accessibility**: Understand ARIA roles and attributes for inclusive design.
+
+### 2. Advanced CSS
+- **Responsive Design**: Media queries, relative units (`%, em, rem`), and viewport-based units (`vh`, `vw`).
+- **Animations and Transitions**: CSS animations and transitions for dynamic effects.
+- **Preprocessors**: Introduction to SASS or LESS for advanced CSS functionality.
+- **CSS Variables**: Use custom properties for theming and maintainability.
+- **CSS Frameworks**: Familiarity with frameworks like Bootstrap or Tailwind CSS.
+
+### 3. JavaScript Fundamentals
+- **DOM Manipulation**: Understand the Document Object Model and interact with it.
+- **Events**: Handle user interactions and event propagation.
+- **Fetch API**: Make HTTP requests.
+- **ES6+ Features**: Learn modern JavaScript features like `let`, `const`, template literals, destructuring, and arrow functions.
+
+### 4. Web Performance
+- **Optimizing Images**: Use modern formats like WebP, lazy loading, and responsive images.
+- **Minification and Compression**: Use tools like Webpack or Gulp to optimize assets.
+- **Critical Rendering Path**: Understand how browsers render web pages.
+- **Caching Strategies**: Use browser and server-side caching effectively.
+
+### 5. Modern Layout Techniques
+- **CSS Grid vs. Flexbox**: Understand when to use each.
+- **CSS Subgrid**: Advanced techniques in grid layouts.
+- **Multi-column Layouts**: Use CSS for multi-column designs.
+
+
+# HTML & CSS Interview Questions
+
+1. What is HTML? Differences between HTML & HTML5? Advantages of HTML5?
+2. What is the difference between HTML and XHTML?
+3. What is the role of DOCTYPE in HTML?
+4. What if you remove !DOCTYPE html> from your HTML?
+5. Difference between Head & Body in HTML? Where to place JS link reference?
+6. What is Title Tag in HTML? What are the 4 advantages of Title tag?
+7. What are Meta Tags? What are the 5 types of meta tags?
+8. What are HTML elements? What is the difference between Element & Tag?
+9. What are the roles and uses of the div> element in HTML?
+10. What is the difference between div> and span> element?
+11. What is the role of p, a, br, hr, em, img, input & button elements?
+12. What is the role of header, main, section, footer & address elements in HTML?
+13. What is the role of Heading tags in HTML? How does it impact SEO?
+14. What is the difference between section> & article> elements?
+15. What are Root, Parent, Child & Nested elements?
+16. What are Empty Elements?
+17. What are Semantic Elements in HTML? Is div a semantic element?
+18. Can HTML tags be written in Uppercase?
+19. What are the 3 differences between Block-Level and Inline Elements?
+20. List all Block-Level & Inline Elements in HTML.
+21. What are HTML Attributes? What are the Types of HTML attributes?
+22. What are the Id, Style & Class attributes of an element? When to use what?
+23. What will happen if two elements have the same ids?
+24. Multiple Classes for a single element? Style precedence?
+25. What are Data Attributes in HTML?
+26. What are the 5 Types of Links in HTML?
+27. What is the difference between Absolute and Relative URLs?
+28. What is the purpose of the nav> element in HTML?
+29. What is a Fragment Identifier in a URL?
+30. What is the purpose of the base> element in HTML?
+31. How do you add an external stylesheet in your HTML?
+32. How do you open a link in a new tab?
+33. How do you create an Email Link?
+34. What are the different Types of Lists in HTML?
+35. What is a Nested List in HTML?
+36. What are table, tr, th, td elements? What are table advantages & disadvantages?
+37. What is the colspan attribute in HTML?
+38. What is the best way to add a border to a table, column, and cell?
+39. How to embed an Image in HTML? Why is the alt attribute so important?
+40. What are the differences between JPEG and PNG image formats?
+41. How to embed Video element in HTML? Why do we need multiple source elements?
+42. How to embed Audio element in HTML?
+43. What are the Autoplay & Loop attributes in multimedia elements?
+44. What are HTML Forms and what are its advantages?
+45. What are HTML Form Elements and their Main Attributes?
+46. How to Validate for empty input field in form?
+47. What is the role of the textarea> element in a form?
+48. What are the Types of Input elements in a form?
+49. How to create radio buttons and checkboxes? How to group them?
+50. What is the purpose of the select> element in a form?
+51. What are the top 10 Best Practices for writing HTML code?
+52. What is HTML5 Boilerplate code?
+53. How do you optimize an HTML website for Performance?
+54. What is SEO? What are 5 HTML Best Practices for SEO?
+55. What are the 5 steps required for HTML website deployment?
+56. What is Responsive Design?
+57. What are the top 3 things required to make a website Responsive in HTML?
+58. What are some Responsive Design Frameworks for HTML & CSS?
+59. What are HTML Entities? How do you display special characters in HTML?
+60. What are the Top 5 Emerging Trends in HTML development?
+61. What is CSS? What are the 5 ways to Implement CSS in HTML?
+62. What is Inline Style in CSS? When to use it in real applications?
+63. What is Internal Stylesheet in CSS? When to use it in real applications?
+64. What is External Stylesheet in CSS? When to use it in real applications?
+65. What are the 5 advantages of external stylesheet?
+66. How do you Include CSS in a webpage or HTML?
+67. How to implement CSS using @import rule?
+68. What is CSS Preprocessors? What is SCSS?
+69. What are the  3 Types of CSS Preprocessors?
+70. What are Selectors in CSS? How many types of selectors are there?
+71. Difference between ID, Element & Class selector? When to use which selector?
+72. What are Universal selectors?
+73. What are the Descendant Selectors in CSS?
+74. What are Attribute Selectors in CSS? What are its 5 Types?
+75. What are Child Selectors in CSS?
+76. How is Child Selector different from Descendant selectors?
+77. What are Pseudo-class Selector and Pseudo-element Selector?
+78. Explain the concept of the Box Model in CSS.
+79. What is the difference between Padding and Margin?
+80. What is the difference between display: inline & display: block?
+81. What is the difference between display: inline and display: inline-block?
+82. What is z-index property in CSS? How will same z-index elements be displayed?
+83. What is the role of float property in CSS?
+84. What is the difference between position: relative/absolute/fixed?
+85. What is the role of meta viewport tag?
+86. What are Media Queries in CSS?
+87. What is display: flex in CSS?
+88. What is CSS Grid Layout in CSS?
+89. How can you create a Sticky Header in CSS?
+90. What are the 5 best practices for creating a Responsive Design using CSS?
+91. What is Bootstrap? What are the other 5 responsive design frameworks?
+92. What are the 5 Advantages of using Bootstrap?
+93. What are the 2 ways to include Bootstrap framework for your website?
+94. Explain the Grid System in Bootstrap?
+95. What is the difference between col-xs, col-sm, col-md, col-lg & col-xl?
+96. What are Bootstrap Components? What are the Top 10 bootstrap components?
+97. What is a Bootstrap Modal component?
+98. What is a Bootstrap Navigation component?
+99. What is Bootstrap Carousel component?
+100. Explain the difference between Bootstrap's container and container-fluid?
