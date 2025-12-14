@@ -1,0 +1,5 @@
+- Understanding the Project Structure (Created by Spring Initializr)
+- `src/main/java`: Application code
+- `src/main/resources`: Configuration files
+- `src/test/java`: Test code
+- `pom.xml` or `build.gradle`: Dependency management
