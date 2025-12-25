@@ -1,0 +1,78 @@
+HTML Fundamentals 2hr 5min
+CSS Fundamentals 5hr 25min
+Layouts: Floats, Flexbox, and CSS Grid Fundamentals 4hr 2min
+Web Design Rules and Framework 4hr 53min
+Components and Layout Patterns 4hr 29min
+Omnifood Project - Setup and Desktop Version 10hr 17min
+Omnifood Project - Responsive Web Design 2hr 44min
+Omnifood Project - Effects, Optimizations and Deployment 2hr 40min
+
+---------------------------------------------------------------------------------------------------------------------------
+
+JavaScript Fundamentals – Part 1: 4 hr 31 min
+JavaScript Fundamentals – Part 2: 4 hr 19 min
+How to Navigate This Course: 14 min
+Developer Skills & Editor Setup: 2 hr 39 min
+[Optional] HTML & CSS Crash Course: 56 min
+JavaScript in the Browser: DOM and Events (Project): 3 hr 54 min
+How JavaScript Works Behind the Scenes: 3 hr 26 min
+Data Structures, Modern Operators and Strings: 5 hr 51 min
+A Closer Look at Functions: 2 hr 40 min
+Working With Arrays (Project): 7 hr 9 min
+Numbers, Dates, Intl and Timers (Project): 3 hr 30 min
+Advanced DOM and Events (Project): 5 hr 23 min
+Object-Oriented Programming (OOP) With JavaScript: 4 hr 11 min
+Mapty App: OOP, Geolocation, External Libraries, and More! (Project): 3 hr 59 min
+Asynchronous JavaScript: Promises, Async/Await, and AJAX: 5 hr 2 min
+Modern JavaScript Development: Modules, Tooling, and Functional: 3 hr 50 min
+Forkify App: Building a Modern Application (Project): 8 hr 23 min
+Setting Up Git and Deployment: 59 min
+
+---------------------------------------------------------------------------------------------------------------------------
+
+TypeScript Basics & Basic Types 1hr 46min
+The TypeScript Compiler (and its Configuration) 28min
+TypeScript Essentials Demo Project 31min
+Next-generation JavaScript & TypeScript 34min
+Classes & Interfaces 1hr 3min
+Advanced Types 46min
+Generic Types 28min
+Classes & Generics - Demo Project 26min
+Deriving Types From Types 1hr 19min
+ECMAScript Decorators 51min
+Experimental Decorators 1hr 17min
+Practice Time! Let's build a Drag & Drop Project 42min
+Modules & Namespaces 51min
+Creating & Running TypeScript Projects with Vite 26min
+Using Webpack with TypeScript 34min
+3rd Party Libraries & TypeScript 38min
+Time to Practice! Let's build a "Select & Share a Place" App 28min
+React.js & TypeScript 47min
+Node.js + Express & TypeScript 1hr 7min
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Getting Started 33min
+Components, Templates, Services & More 4hr 51min
+Time To Practice 1hr 37min
+Debugging Angular Apps 16min
+Components & Templates 4hr 16min
+Enhancing Elements with Directives 1hr 11min
+Transforming Values with Pipes 47min
+Understanding Services & Dependency Injection 1hr 29min
+Making Sense of Change Detection 1hr 8min
+Working with RxJS (Observables) 52min
+Sending HTTP Requests & Handling Responses 1hr 45min
+Handling User Input & Working with Forms (Template-driven & Reactive) 2hr 15min
+Routing & Building Multi-page Single Page Applications 2hr 29min
+Code Splitting & Deferrable Views 36min
+Deploying Angular Apps - CSR, SSR, SGA 49min
+Course Roundup & Next Steps 15min
+Standalone Components 46min
+Angular Signals 28min
+Bonus: Using NgRx For State Management 1hr 55min
+Angular Animations 40min
+Adding Offline Capabilities with Service Workers 27min
+A Basic Introduction to Unit Testing in Angular Apps 45min
+Angular as a Platform & Closer 1hr 7min
+---------------------------------------------------------------------------------------------------------------------------
