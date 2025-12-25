@@ -1,0 +1,31 @@
+Introduction 4min
+Object Oriented Programming Recap 40min
+SOLID Principles 58min
+
+Part-I Behavioural Design Patterns 15min
+Memento Pattern 21min
+Observer Pattern 27min
+Strategy Pattern 12min
+Command Pattern 18min
+Template Method Pattern 13min
+Iterator Pattern 25min
+State Pattern 17min
+Mediator Pattern 21min
+
+Part-II Creational Design Patterns 2min
+
+Singleton Pattern 13min
+Factory Design Pattern  11min
+Abstract Factory Pattern  16min
+Builder Design Pattern 17min
+Prototype Pattern 21min
+
+Part-III Structural Design Patterns 1min
+Adapter Pattern 14min
+Decorator Pattern 19min
+Proxy Pattern 15min
+Composite Pattern  15min
+Facade Pattern  12min
+FlyWeight Pattern  24min
+Additional Patterns 1min
+Project - Ride Sharing App 1hr 28min
