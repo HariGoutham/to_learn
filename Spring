@@ -1,0 +1,34 @@
+Introduction to Spring Framework — 1hr 22min
+Creating Beans inside Spring Context — 2hr 18min
+Wiring Beans using @Autowiring — 1hr 20min
+Bean Scopes in Spring Framework — 43min
+Aspect-Oriented Programming (AOP) in Spring — 1hr 19min
+Building Web Applications with Spring Boot & Spring MVC — 1hr 42min
+Using Thymeleaf for Dynamic Content in Spring MVC — 2hr 33min
+Deep Dive into Lombok — 18min
+Processing Query Params & Path Variables — 33min
+Input Validation with Bean & Hibernate Validators — 51min
+Web Bean Scopes in Spring — 35min
+Spring Security (Part 1) — 1hr 47min
+Exception Handling with @ControllerAdvice & @ExceptionHandler — 20min
+CSRF Protection in Spring Security (Part 2) — 34min
+Spring Boot H2 Database & Spring JDBC — 2hr 5min
+MySQL Setup on AWS & Migration from H2 — 37min
+Introduction to Spring Data & Spring Data JPA — 1hr 34min
+Auditing with Spring Data JPA — 30min
+Custom Validations in Spring MVC — 1hr
+One-to-One Relationships, Fetch & Cascade Types — 1hr 1min
+Custom Authentication with Spring Security — 1hr 20min
+Building Profile Web Page — 43min
+One-to-Many & Many-to-One Relationships — 1hr 13min
+Many-to-Many Relationships & Configuration — 1hr 15min
+Sorting & Pagination in Spring Data JPA — 1hr 1min
+Custom Queries in Spring Data JPA — 156min
+Building REST Services with Spring — 1hr 36min
+Consuming REST Services with Spring — 1hr 1min
+Spring Data REST & HAL Explorer — 50min
+Logging Configuration in Spring Boot — 39min
+Properties Configuration & Profiles in Spring Boot — 1hr 14min
+Spring Boot Actuator & Spring Boot Admin — 43min
+Deploying Spring Boot App to AWS — 46min
+Thank You & Congratulations — 13min
