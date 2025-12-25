@@ -1,0 +1,21 @@
+Introduction to Microservices Architecture — 34min
+Building Microservices with Spring Boot — 4hr 31min
+Right-Sizing Microservices & Identifying Boundaries — 35min
+Deployment, Portability & Scalability with Docker — 2hr 55min
+Cloud Native Apps & 15-Factor Methodology — 1hr 1min
+Configuration Management in Microservices — 4hr 44min
+Using MySQL Database in Microservices — 1hr 3min
+Service Discovery & Registration — 2hr 40min
+Gateway, Routing & Cross-Cutting Concerns — 2hr 4min
+Making Microservices Resilient — 2hr 42min
+Observability & Monitoring of Microservices — 3hr 6min
+Microservices Security — 2hr 49min
+Event-Driven Microservices (RabbitMQ, Spring Cloud Functions) — 2hr 1min
+Event-Driven Microservices (Kafka, Spring Cloud Functions) — 54min
+Container Orchestration with Kubernetes — 2hr 36min
+Deep Dive on Helm — 2hr 32min
+Server-Side Discovery & Load Balancing with Kubernetes — 55min
+Deploying Microservices into Cloud Kubernetes Cluster — 43min
+Kubernetes Ingress, Service Mesh (Istio) & mTLS — 1hr 7min
+Tips for Microservices Developers — 50min
+Thank You & Congratulations — 2min
