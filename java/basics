@@ -10,3 +10,66 @@ Polymorphism and instanceof
 Access Modifiers: public, private, protected, and default access.
 Java Memory Management: Stack vs. Heap, Garbage Collection (GC) and Memory Leaks and their prevention.
 String vs StringBuilder vs StringBuffer, String Pool and Interning
+
+public class DozenMartingale {
+
+    public static void main(String[] args) {
+
+        int[] spins = {
+            2, 31, 19, 18, 29, 2, 6, 23, 4, 17,
+            13, 26, 12, 32, 16, 31, 30, 8, 19, 12,
+            35, 7, 35, 20, 7, 3, 4, 3, 4, 25,
+            6, 31, 10, 24, 3, 19, 29, 21, 36, 6,
+            16, 19, 17, 9, 26, 1, 29, 0, 9, 13,
+            12, 4, 14, 5, 3, 34, 2, 35, 22, 23,
+            6, 24, 20, 34, 12, 25, 4, 8, 0, 6,
+            25, 30, 17, 1, 16, 24, 13, 2, 11, 9,
+            5, 25, 14, 32, 11, 28, 32, 13, 22, 25,
+            13, 18, 4, 28, 1, 36, 7, 18, 4, 28
+        };
+
+        double bankroll = 8500;
+
+        double baseBet = 20;
+        double bet = baseBet;
+
+        int lossStreak = 0;
+
+        System.out.println("Spin | No | Bet | Result | Bankroll");
+
+        for (int i = 0; i < spins.length; i++) {
+
+            int n = spins[i];
+
+            boolean win = (n >= 1 && n <= 12) || (n >= 25 && n <= 36);
+
+            if (win) {
+
+                bankroll += 10; // net win for dozen split
+                lossStreak = 0;
+                bet = baseBet;
+
+                System.out.printf("%4d | %2d | %.0f | WIN  | %.2f%n",
+                        i + 1, n, bet, bankroll);
+
+            } else {
+
+                bankroll -= bet;
+                lossStreak++;
+
+                System.out.printf("%4d | %2d | %.0f | LOSS | %.2f%n",
+                        i + 1, n, bet, bankroll);
+
+                if (lossStreak >= 6) {
+                    bet = baseBet;
+                    lossStreak = 0;
+                    System.out.println("     >> RESET after 6 losses");
+                } else {
+                    bet = bet * 2;
+                }
+            }
+        }
+
+        System.out.println("\nFinal bankroll: " + bankroll);
+    }
+}
