@@ -165,3 +165,94 @@ public class SicBoSimulator {
         System.out.println("Final Bankroll = " + finalBankroll);
     }
 }
+
+import java.util.List;
+import java.util.Arrays;
+
+public class SicBoSimulator {
+
+    public static double simulate(
+            double initialBankroll,
+            double baseBet,
+            int maxConsecutiveLosses,
+            List<String> bets,
+            List<String> outcomes) {
+
+        if (bets.size() != outcomes.size()) {
+            throw new IllegalArgumentException("Bets and outcomes must have same size");
+        }
+
+        double bankroll = initialBankroll;
+        double currentBet = baseBet;
+        int consecutiveLosses = 0;
+
+        System.out.println("Round | BetOn | Outcome | Bet | P/L | Bankroll");
+
+        for (int i = 0; i < bets.size(); i++) {
+
+            String bet = bets.get(i).toUpperCase();
+            String outcome = outcomes.get(i).toUpperCase();
+
+            if (bankroll < currentBet) {
+                System.out.println("Bankroll insufficient at round " + (i + 1));
+                break;
+            }
+
+            boolean win = !"T".equals(outcome) && bet.equals(outcome);
+
+            double profitLoss;
+
+            if (win) {
+                profitLoss = currentBet;
+                bankroll += currentBet;
+                consecutiveLosses = 0;
+                currentBet = baseBet;
+            } else {
+                profitLoss = -currentBet;
+                bankroll -= currentBet;
+                consecutiveLosses++;
+
+                if (consecutiveLosses >= maxConsecutiveLosses) {
+                    consecutiveLosses = 0;
+                    currentBet = baseBet;
+                } else {
+                    currentBet *= 2;
+                }
+            }
+
+            System.out.printf(
+                    "%5d |   %s   |   %s    | %6.2f | %7.2f | %10.2f%n",
+                    (i + 1), bet, outcome, (win ? currentBet / 2 : currentBet), profitLoss, bankroll
+            );
+        }
+
+        return bankroll;
+    }
+
+    public static void main(String[] args) {
+
+        double initialBankroll = 8500;
+        double baseBet = 20;
+        int maxConsecutiveLosses = 5;
+
+        List<String> bets = Arrays.asList(
+                "B", "S", "B", "S", "B",
+                "S", "B", "S", "B", "S"
+        );
+
+        List<String> outcomes = Arrays.asList(
+                "S", "S", "T", "S", "B",
+                "B", "B", "T", "S", "S"
+        );
+
+        double finalBankroll = simulate(
+                initialBankroll,
+                baseBet,
+                maxConsecutiveLosses,
+                bets,
+                outcomes
+        );
+
+        System.out.println("\nFinal Bankroll = " + finalBankroll);
+    }
+}
