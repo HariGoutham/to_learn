@@ -75,3 +75,93 @@ public class DozenMartingale {
 }
 
 1 0 0 11 26 18 18 1 12 23 29 31 32 19 3 4 21 0 29 15 28 9 20 13 26 5 36 9 5 2 0 36 18 7 1 36 3 5 0 36 
+
+
+import java.util.List;
+import java.util.Arrays;
+
+public class SicBoSimulator {
+
+    public static double simulate(
+            double initialBankroll,
+            double baseBet,
+            int maxConsecutiveLosses,
+            List<String> bets,
+            List<String> outcomes) {
+
+        if (bets.size() != outcomes.size()) {
+            throw new IllegalArgumentException(
+                    "Bets and outcomes must have the same size");
+        }
+
+        double bankroll = initialBankroll;
+        double currentBet = baseBet;
+        int consecutiveLosses = 0;
+
+        for (int i = 0; i < bets.size(); i++) {
+
+            String bet = bets.get(i).toUpperCase();
+            String outcome = outcomes.get(i).toUpperCase();
+
+            // Stop if bankroll cannot cover next bet
+            if (bankroll < currentBet) {
+                System.out.println("Bankroll exhausted at round " + (i + 1));
+                break;
+            }
+
+            boolean win;
+
+            // Triple always loses
+            if ("T".equals(outcome)) {
+                win = false;
+            } else {
+                win = bet.equals(outcome);
+            }
+
+            if (win) {
+                bankroll += currentBet;     // 1:1 payout
+                consecutiveLosses = 0;
+                currentBet = baseBet;
+            } else {
+                bankroll -= currentBet;
+                consecutiveLosses++;
+
+                if (consecutiveLosses >= maxConsecutiveLosses) {
+                    consecutiveLosses = 0;
+                    currentBet = baseBet;
+                } else {
+                    currentBet *= 2;
+                }
+            }
+        }
+
+        return bankroll;
+    }
+
+    public static void main(String[] args) {
+
+        double initialBankroll = 8500;
+        double baseBet = 20;
+        int maxConsecutiveLosses = 5;
+
+        List<String> bets = Arrays.asList(
+                "B", "S", "B", "S", "B",
+                "S", "B", "S", "B", "S"
+        );
+
+        List<String> outcomes = Arrays.asList(
+                "S", "S", "T", "S", "B",
+                "B", "B", "T", "S", "S"
+        );
+
+        double finalBankroll = simulate(
+                initialBankroll,
+                baseBet,
+                maxConsecutiveLosses,
+                bets,
+                outcomes
+        );
+
+        System.out.println("Final Bankroll = " + finalBankroll);
+    }
+}
